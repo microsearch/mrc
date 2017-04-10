@@ -1,6 +1,6 @@
 ---
-layout: home
 title: Home
+layout: home
 homecol1:
 - Home column 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor,
   ipsum a vehicula scelerisque, augue nisi suscipit turpis, vel scelerisque urna elit
@@ -14,3 +14,4 @@ homecol3:
   ipsum a vehicula scelerisque, augue nisi suscipit turpis, vel scelerisque urna elit
   eu eros. Pellentesque eget vehicula magna.
 ---
+
