@@ -1,12 +1,10 @@
 ---
-layout: page
 title: About
-permalink: /about/
+permalink: "/about/"
+layout: page
 weight: 2
 sections:
-- <li><a href="#">Projects</a></li>
-  <li><a href="#">Team</a></li>
-  <li><a href="#">News</a></li>
+- <li><a href="#">Projects</a></li> <li><a href="#">Team</a></li> <li><a href="#">News</a></li>
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
