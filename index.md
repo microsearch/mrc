@@ -1,6 +1,8 @@
 ---
 layout: home
 title: Home
+bannertext:
+- Collect. Browse. Search.
 homecol1:
 - Home column 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor,
   ipsum a vehicula scelerisque, augue nisi suscipit turpis, vel scelerisque urna elit
