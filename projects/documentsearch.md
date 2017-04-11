@@ -1,11 +1,11 @@
 ---
-title: DocumentSearch
+title: Document Search
 permalink: "/projects/documentsearch/"
-layout: page
 weight: 2
 sections:
 - <li><a href="documentsearch">DocumentSearch</a></li> <li><a href="videosearch">VideoSearch</a></li>
   <li><a href="multimediasearch">MultimediaSearch</a></li>
+layout: page
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
