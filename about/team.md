@@ -4,7 +4,8 @@ permalink: "/about/team/"
 layout: page
 weight: 2
 sections:
-- <li><a href="#">Projects</a></li> <li><a href="/about/team/">Team</a></li> <li><a href="#">News</a></li>
+- <li><a href="#">Projects</a></li> <li><a href="/about/team/">Team</a></li> <li><a
+  href="#">News</a></li>
 ---
 
 ***Chuck Kelly, Chief Executive Officer***  
