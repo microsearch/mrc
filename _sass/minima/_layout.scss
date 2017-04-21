@@ -384,3 +384,200 @@
 .clear {
   clear: both;
 }
+
+/* Content pages */
+.post-title {
+  border-bottom: solid 1px $brand-color;
+  color: $brand-color;
+}
+
+.pagebox {
+  border-bottom: solid 1px $grey-color-light;
+  padding-bottom: $spacing-unit;
+  margin-bottom: $spacing-unit;
+}
+
+.pagebox h2 {
+  margin: 0;
+}
+
+.pagebox h3 {
+  color: $grey-color;
+}
+
+.pagebox img {
+  float: left;
+  margin: 0 $spacing-unit 0 0;
+  width: 350px;
+}
+
+.pagebox a {
+  color: inherit;
+}
+
+.pagebox a:hover {
+  text-decoration: none;
+}
+
+
+
+/* Landing pages */
+
+h2.homeheader {
+  font-size: 40px;
+  color: $brand-color;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  clear: both;
+}
+
+#conversionbanner {
+  background: url("../images/vids-large.jpg") bottom no-repeat;
+}
+
+#searchbanner {
+  background: url("../images/search_lg.jpg") bottom no-repeat;
+}
+
+#seobanner {
+  background: url("../images/seo_lg.png") center no-repeat;
+}
+
+#educationbanner {
+  background: url("../images/classroom.png") center no-repeat;
+}
+
+#educationbanner.landingbanner h1 {
+  padding: 20px 0 0 0;
+}
+
+.landingbanner {
+  width: 100%;
+  height: 360px;
+  margin-bottom: $spacing-unit;
+  background-size: cover;
+
+@include media-query($on-palm) {
+  width: -webkit-calc(100% - #{$spacing-unit});
+  padding: 0 $spacing-unit;
+}
+
+}
+
+.landingbanner h1 {
+  padding: 120px 0 0 0;
+  margin: 0;
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 0 0 8px #000000;
+
+  @include media-query($on-palm) {
+    padding: 40px 10px 0 10px;
+    font-size: 40px;
+  }
+
+}
+
+.landingbanner h2 {
+  color: $grey-color-light;
+  font-size: 32px;
+  text-align: center;
+  text-shadow: 0 0 10px #000;
+
+  @include media-query($on-palm) {
+    font-size: 26px;
+  }
+
+}
+
+.landingcolumn {
+  width: -webkit-calc(100% - #{$spacing-unit});
+  padding: 0 $spacing-unit $spacing-unit 0;
+}
+
+.landingcolumn img {
+  width: 363px;
+  float: left;
+  padding: 0 $spacing-unit $spacing-unit 0;
+}
+
+.middle img {
+  float: right;
+  padding: 0 0 $spacing-unit $spacing-unit;
+}
+
+.middle h2 {
+  text-align: right;
+}
+
+.landingcolumn h2 {
+  border-bottom: solid 1px $grey-color-light;
+  color: $brand-color;
+  clear: both;
+}
+
+.landingcolumn p {
+  margin: $spacing-unit 0;
+  color: $grey-color;
+}
+
+.landingcolumn a:hover {
+  text-decoration: none;
+}
+
+.contactform {
+  padding: $spacing-unit;
+  background: $grey-color-dark;
+  width: 280px;
+  border: solid 1px #fff;
+  border-radius: 10px;
+}
+
+#contactbox input,
+#contactbox textarea {
+  height: 22px;
+  padding: 10px;
+  border: solid 1px $grey-color-light;
+  background: #efefef;
+  font-size: 20px;
+  border-radius: 10px;
+  display: block;
+  margin: 0 0 15px 0;
+}
+
+#contactbox textarea {
+  height: 80px;
+}
+
+#contactbox input#sendbutton {
+  height: 44px;
+  width: 100px;
+  border:none;
+  color: #fff;
+  border: solid 1px $grey-color;
+  background: $brand-color;
+  margin: 0 auto;
+}
+
+.contactcolumn {
+  float: left;
+  padding: $spacing-unit $spacing-unit $spacing-unit 0;
+}
+
+#ccol1 {
+  width: 60%;
+}
+
+#ccol2 {
+  width: 30%;
+}
+
+#hometext {
+  padding: $spacing-unit;
+  background: #efefef;
+  color: #555;
+  border-top: 1px solid $brand-color;
+
+}

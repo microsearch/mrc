@@ -10,11 +10,7 @@ collections:
     output: true
 author: Chuck Kelly
 email: chuck.kelly@microsearch.net
-description: 'Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for Google search
-  results) and in your feed.xml site description.
-
-'
+description: 'Multimedia Reference Corporation provides unparalleled access to your organizations documents and videos online. Collect your content, Browse using metadata, and Search every word in your collection.'
 baseurl: ''
 url: ''
 markdown: kramdown

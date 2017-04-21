@@ -4,16 +4,9 @@ bannertext:
 - Collect. Browse. Search.
 layout: home
 homecol1:
-- Home column 1. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor,
-  ipsum a vehicula scelerisque, augue nisi suscipit turpis, vel scelerisque urna elit
-  eu eros. Pellentesque eget vehicula magna.
+- Multimedia Reference Corporation exists to help you more easily access your important information. Whether you have boxes of paper documents and analog videos or digital documents and media, we'll help you collect it into a fully searchable online collection. Read more about <a href="/services/video-document-conversion/">Video &amp; Document Conversion</a>.
 homecol2:
-- Home column 2. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor,
-  ipsum a vehicula scelerisque, augue nisi suscipit turpis, vel scelerisque urna elit
-  eu eros. Pellentesque eget vehicula magna.
+- Once online, you will have unparalleled access to your valuable content. With the addition of metadata––information about your documents or videos––your content is completely browsable. Think of the old card catalogues, updated for the 21st century.
 homecol3:
-- Home column 3. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla auctor,
-  ipsum a vehicula scelerisque, augue nisi suscipit turpis, vel scelerisque urna elit
-  eu eros. Pellentesque eget vehicula magna.
+- Having access to your content online is a huge step forward, but that's only the beginning. We index every word of your documents and video transcripts. You can search for words or phrases, or combine full text search with metadata search to find exactly what you're looking for every time. Read more about <a href="/services/search/">Transcript &amp; Full Document Search</a>.
 ---
-
