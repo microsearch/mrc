@@ -1,8 +1,7 @@
 ---
 title: Home
 bannertext:
-- Collect. Browse. Search.
-layout: home
+- Collect. Index. Search.
 homecol1:
 - Multimedia Reference Corporation exists to help you more easily access your important
   information. Whether you have boxes of paper documents and analog videos or digital
@@ -19,5 +18,6 @@ homecol3:
   search for words or phrases, or combine full text search with metadata search to
   find exactly what you're looking for every time. Read more about <a href="/services/search/">Transcript
   &amp; Full Document Search</a>.
+layout: home
 ---
 
