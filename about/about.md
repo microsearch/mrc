@@ -1,11 +1,12 @@
 ---
 title: About
 permalink: "/about/"
-layout: page
 weight: 1
 sections:
 - <li><a href="#">Projects</a></li> <li><a href="/about/team/">Team</a></li> <li><a
   href="#">News</a></li>
+Description: 
+layout: page
 ---
 
 Multimedia Reference Corporation provides unparalleled access to your organizations documents and videos online. **Collect** your content, **Browse** using metadata, and **Search** every word in your collection.
