@@ -1,13 +1,14 @@
 ---
 title: Services
 permalink: "/services/"
-layout: page
 weight: 2
 type: page
 sections:
 - <li><a href="video-document-conversion/">Video &amp; Document Conversion</a></li>
   <li><a href="search/">Transcript &amp; Document Full Text Search</a></li> <li><a
   href="seo/">Video SEO &amp; Marketing</a></li>
+Description: 
+layout: page
 ---
 
 <div class="pagebox"><a href="video-document-conversion/">
