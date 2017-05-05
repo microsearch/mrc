@@ -18,6 +18,9 @@ homecol3:
   search for words or phrases, or combine full text search with metadata search to
   find exactly what you're looking for every time. Read more about <a href="/services/search/">Transcript
   &amp; Full Document Search</a>.
+Description: Multimedia Reference Corporation provides unparalleled access to your
+  organizations documents and videos online. Collect your content, Browse using metadata,
+  and Search every word in your collection.
 layout: home
 ---
 
