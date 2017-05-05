@@ -1,3 +1,4 @@
+
 /**
  * Site header
  */
@@ -352,18 +353,21 @@
 
 #homebanner {
   width: 100%;
-  height: 465px;
-  background: url("/images/cardcatalogue.jpg") no-repeat;
+  height: 285px;
+  padding: 180px 0 0 0;
+  background: url("/images/homeimg.jpg") no-repeat;
   background-size: cover;
   margin-bottom: $spacing-unit;
 }
 
 #homebanner h1 {
-  padding: 200px 0;
+  margin: 0;
   text-align: center;
   font-size: 50px;
-  color: #fff;
-  text-shadow: 0 0 8px #000000;
+  color: $brand-color-dark;
+  text-shadow: 0 0 8px #fff;
+  background-color:rgba(255, 255, 255, 0.85);
+  padding: 20px 0 10px 0;
 }
 
 .homecolumn {
@@ -374,6 +378,7 @@
 
 .homecolumn h2 {
   border-bottom: solid 1px $grey-color-light;
+  color: $brand-color;
 }
 
 .homecolumn p {

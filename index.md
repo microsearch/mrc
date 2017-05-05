@@ -20,4 +20,3 @@ homecol3:
   find exactly what you're looking for every time. Read more about <a href="/services/search/">Transcript
   &amp; Full Document Search</a>.
 ---
-
