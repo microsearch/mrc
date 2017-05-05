@@ -1,0 +1,24 @@
+---
+title: Multimedia Reference Corporation
+timezone: UTC
+collections:
+  posts:
+    title: Posts
+    output: true
+  uploads:
+    title: Uploads
+    output: true
+author: Chuck Kelly
+email: chuck.kelly@microsearch.net
+description: Multimedia Reference Corporation provides unparalleled access to your
+  organizations documents and videos online. Collect your content, Browse using metadata,
+  and Search every word in your collection.
+baseurl: 
+url: http://microsearch.github.io/mrc
+markdown: kramdown
+theme: minima
+gems:
+- jekyll-feed
+exclude:
+- Gemfile
+- Gemfile.lock
