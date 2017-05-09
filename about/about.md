@@ -12,7 +12,7 @@ Description:
 layout: page
 ---
 
-Multimedia Reference Corporation provides unparalleled access to your organizations documents and videos online. **Collect** your content, **Browse** using metadata, and **Search** every word in your collection.
+Multimedia Reference Corporation is a non-profit corporation (501 (3) c) that provides unparalleled access to your academic organization's documents and videos online. **Collect** your content, **Browse** using metadata, and **Search** every word in your collection.
 
 We are a search engine company, and provide video and document search engine services for client organizations across the country, providing hosted portal solutions.
 
