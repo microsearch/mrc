@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Collect | Index | Search - Introducing Multimedia Reference Corporation
 bannertext:
 - Collect. Index. Search.
 homecol1:
