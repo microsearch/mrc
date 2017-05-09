@@ -13,13 +13,8 @@ email: chuck.kelly@microsearch.net
 description: Multimedia Reference Corporation provides unparalleled access to your
   organizations documents and videos online. Collect your content, Browse using metadata,
   and Search every word in your collection.
-<<<<<<< HEAD
 baseurl:
 url: http://aca.media
-=======
-baseurl: 
-url: http://microsearch.github.io/mrc
->>>>>>> origin/master
 markdown: kramdown
 theme: minima
 gems:
