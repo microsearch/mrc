@@ -2,7 +2,8 @@
 title: MultimediaSearch for Distance Learning
 permalink: "/services/education/"
 layout: landing
-description: Multimedia Reference Corporation provides multimedia search functionality for online education.
+description: Multimedia Reference Corporation provides multimedia search functionality
+  for online education.
 weight: 2
 ---
 
