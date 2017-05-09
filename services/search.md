@@ -2,7 +2,7 @@
 title: Video Transcript and Document Full Text Search
 permalink: "/services/search/"
 layout: landing
-description: Microsearch provides document storage and full text search and video
+description: Multimedia Reference Corporation provides document storage and full text search and video
   storage and full transcript search.
 weight: 2
 ---

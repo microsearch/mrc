@@ -22,5 +22,7 @@ Description: Multimedia Reference Corporation provides unparalleled access to yo
   organizations documents and videos online. Collect your content, Browse using metadata,
   and Search every word in your collection.
 layout: home
+description: Multimedia Reference Corporation provides unparalleled access to your
+  organizations documents and videos online. Collect your content, Browse using metadata,
+  and Search every word in your collection.
 ---
-

@@ -2,6 +2,9 @@
 title: About
 permalink: "/about/"
 weight: 1
+description: Multimedia Reference Corporation provides unparalleled access to your
+  organizations documents and videos online. Collect your content, Browse using metadata,
+  and Search every word in your collection.
 sections:
 - <li><a href="#">Projects</a></li> <li><a href="/about/team/">Team</a></li> <li><a
   href="#">News</a></li>

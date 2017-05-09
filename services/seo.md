@@ -2,7 +2,7 @@
 title: Video Search Engine Optimization and Marketing
 permalink: "/services/seo/"
 layout: landing
-description: Microsearch indexes the words in your video transcripts and embeds them
+description: Multimedia Reference Corporation indexes the words in your video transcripts and embeds them
   on your website, meaning search engines can find them, and direct users to your
   site.
 weight: 3
