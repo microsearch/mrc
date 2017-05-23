@@ -14,11 +14,12 @@ description: Multimedia Reference Corporation provides unparalleled access to yo
   organizations documents and videos online. Collect your content, Browse using metadata,
   and Search every word in your collection.
 baseurl: 
-url: http://microsearch.github.io/mrc
+url: http://aca.media
 markdown: kramdown
 theme: minima
 gems:
 - jekyll-feed
+- jekyll-seo-tag
 exclude:
 - Gemfile
 - Gemfile.lock

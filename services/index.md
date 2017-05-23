@@ -1,13 +1,17 @@
 ---
 title: Services
 permalink: "/services/"
-layout: page
 weight: 2
 type: page
+description: Multimedia Reference Corporation provides unparalleled access to your
+  organizations documents and videos online. Collect your content, Browse using metadata,
+  and Search every word in your collection.
 sections:
 - <li><a href="video-document-conversion/">Video &amp; Document Conversion</a></li>
   <li><a href="search/">Transcript &amp; Document Full Text Search</a></li> <li><a
   href="seo/">Video SEO &amp; Marketing</a></li>
+Description: 
+layout: page
 ---
 
 <div class="pagebox"><a href="video-document-conversion/">

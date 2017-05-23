@@ -2,8 +2,9 @@
 title: Video and Document Conversion
 permalink: "/services/video-document-conversion/"
 layout: landing
-description: Microsearch converts your analog videos and documents and stores them
-  in a searchable online digital library. Cloud storage for all your important media.
+description: Multimedia Reference Corporation converts your analog videos and documents
+  and stores them in a searchable online digital library. Cloud storage for all your
+  important media.
 weight: 1
 ---
 

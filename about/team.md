@@ -1,11 +1,15 @@
 ---
 title: Team
 permalink: "/about/team/"
-layout: page
 weight: 2
+description: Multimedia Reference Corporation provides unparalleled access to your
+  organizations documents and videos online. Collect your content, Browse using metadata,
+  and Search every word in your collection.
 sections:
 - <li><a href="#">Projects</a></li> <li><a href="/about/team/">Team</a></li> <li><a
   href="#">News</a></li>
+Description: 
+layout: page
 ---
 
 ***Chuck Kelly, Chief Executive Officer***  
