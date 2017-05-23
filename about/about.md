@@ -22,5 +22,3 @@ We convert client video transcripts and documents into searchable digital librar
 A hosted client digital library may contain thousands, hundreds of thousands or video transcripts or documents, together with all of the related metadata, all now readily accessible on mobile devices as well as on traditional office computers.
 
 Each client digital library is hosted in a web portal; the web portal may be private and secure, or it may be open and public. Public libraries, for instance, use public web portals, while Research Associations generally have private, secure web portals. Each of our client web portals has been highly customized to give each client exactly the search & retrieval experience desired.
-
-This is a test.
