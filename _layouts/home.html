@@ -13,7 +13,7 @@ layout: default-home
 
     <div class="homecolumn" id="homecol1">
         <h2>{% for section in page.homecol1head %} {{ section | textilize }} {% endfor %}</h2>
-        <img src="/images/{% for section in page.homecol1img %} {{ section | textilize }} {% endfor %}" />
+        <img src="/images/{% for section in page.homecol1img %}{{ section | textilize }}{% endfor %}" />
         <p>
             {% for section in page.homecol1text %} {{ section | textilize }} {% endfor %}
         </p>
@@ -21,7 +21,7 @@ layout: default-home
 
     <div class="homecolumn" id="homecol2">
         <h2>{% for section in page.homecol2head %} {{ section | textilize }} {% endfor %}</h2>
-        <img src="/images/{% for section in page.homecol2img %} {{ section | textilize }} {% endfor %}" />
+        <img src="/images/{% for section in page.homecol2img %}{{ section | textilize }}{% endfor %}" />
         <p>
             {% for section in page.homecol2text %} {{ section | textilize }} {% endfor %}
         </p>
@@ -29,7 +29,7 @@ layout: default-home
 
     <div class="homecolumn" id="homecol3">
         <h2>{% for section in page.homecol3head %} {{ section | textilize }} {% endfor %}</h2>
-        <img src="/images/{% for section in page.homecol3img %} {{ section | textilize }} {% endfor %}" />
+        <img src="/images/{% for section in page.homecol3img %}{{ section | textilize }}{% endfor %}" />
         <p>
             {% for section in page.homecol3text %} {{ section | textilize }} {% endfor %}
         </p>
@@ -45,7 +45,7 @@ layout: default-home
     <div class="clear" id="hometext">
       <div class="homecolumn" id="homecol4">
           <h2>{% for section in page.homecol4head %} {{ section | textilize }} {% endfor %}</h2>
-          <img src="/images/{% for section in page.homecol4img %} {{ section | textilize }} {% endfor %}" />
+          <img src="/images/{% for section in page.homecol4img %}{{ section | textilize }}{% endfor %}" />
           <p>
               {% for section in page.homecol4text %} {{ section | textilize }} {% endfor %}
           </p>
@@ -53,7 +53,7 @@ layout: default-home
 
       <div class="homecolumn" id="homecol5">
           <h2>{% for section in page.homecol5head %} {{ section | textilize }} {% endfor %}</h2>
-          <img src="/images/{% for section in page.homecol5img %} {{ section | textilize }} {% endfor %}" />
+          <img src="/images/{% for section in page.homecol5img %}{{ section | textilize }}{% endfor %}" />
           <p>
               {% for section in page.homecol5text %} {{ section | textilize }} {% endfor %}
           </p>
@@ -61,7 +61,7 @@ layout: default-home
 
       <div class="homecolumn" id="homecol6">
           <h2>{% for section in page.homecol6head %} {{ section | textilize }} {% endfor %}</h2>
-          <img src="/images/{% for section in page.homecol6img %} {{ section | textilize }} {% endfor %}" />
+          <img src="/images/{% for section in page.homecol6img %}{{ section | textilize }}{% endfor %}" />
           <p>
               {% for section in page.homecol6text %} {{ section | textilize }} {% endfor %}
           </p>
