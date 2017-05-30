@@ -1,0 +1,23 @@
+---
+layout: page
+---
+<div class="pagebox"><a href="{% for section in page.pagebox1link %}{{ section | textilize }}{% endfor %}">
+<h2>{% for section in page.pagebox1head %}{{ section | textilize }}{% endfor %}</h2>
+<h3>{% for section in page.pagebox1subhead %}{{ section | textilize }}{% endfor %}</h3>
+<img src="{{site.baseurl}}/images/{% for section in page.pagebox1img %}{{ section | textilize }}{% endfor %}" />
+<p>{% for section in page.pagebox1text %}{{ section | textilize }}{% endfor %}</p></a>
+</div>
+
+<div class="pagebox"><a href="{% for section in page.pagebox2link %}{{ section | textilize }}{% endfor %}">
+<h2>{% for section in page.pagebox2head %}{{ section | textilize }}{% endfor %}</h2>
+<h3>{% for section in page.pagebox2subhead %}{{ section | textilize }}{% endfor %}</h3>
+<img src="{{site.baseurl}}/images/{% for section in page.pagebox2img %}{{ section | textilize }}{% endfor %}" />
+<p>{% for section in page.pagebox2text %}{{ section | textilize }}{% endfor %}</p></a>
+</div>
+
+<div class="pagebox"><a href="{% for section in page.pagebox3link %}{{ section | textilize }}{% endfor %}">
+<h2>{% for section in page.pagebox3head %}{{ section | textilize }}{% endfor %}</h2>
+<h3>{% for section in page.pagebox3subhead %}{{ section | textilize }}{% endfor %}</h3>
+<img src="{{site.baseurl}}/images/{% for section in page.pagebox3img %}{{ section | textilize }}{% endfor %}" />
+<p>{% for section in page.pagebox3text %}{{ section | textilize }}{% endfor %}</p></a>
+</div>
