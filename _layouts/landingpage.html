@@ -1,0 +1,81 @@
+---
+layout: landing
+---
+
+<div class="landing">
+    <div id="{{ page.id }}banner" class="landingbanner">
+        <h1>      {% for section in page.bannertext %}
+                {{ section | textilize }}
+              {% endfor %}</h1>
+        <h2>
+          {% for section in page.bannertext2 %}
+            {{ section | textilize }}
+          {% endfor %}</h2>
+    </div>
+    <div class="wrapper">
+        <div class="landingcolumn" id="{{ page.id }}col1">
+            <h2>      {% for section in page.col1head %}
+                    {{ section | textilize }}
+                  {% endfor %}</h2>
+                  <img src="{{site.baseurl}}/images/{% for section in page.col1img %}{{ section | textilize }}{% endfor %}" />
+            <p>
+              {% for section in page.col1text %}
+                {{ section | textilize }}
+              {% endfor %}
+            </p>
+        </div>
+
+        <div class="landingcolumn middle" id="{{ page.id }}col2">
+          <h2>      {% for section in page.col2head %}
+                  {{ section | textilize }}
+                {% endfor %}</h2>
+                  <img src="{{site.baseurl}}/images/{% for section in page.col2img %}{{ section | textilize }}{% endfor %}" />
+          <p>
+            {% for section in page.col2text %}
+              {{ section | textilize }}
+            {% endfor %}
+          </p>
+        </div>
+
+        <div class="landingcolumn" id="{{ page.id }}col3">
+          <h2>      {% for section in page.col3head %}
+                  {{ section | textilize }}
+                {% endfor %}</h2>
+                  <img src="{{site.baseurl}}/images/{% for section in page.col3img %}{{ section | textilize }}{% endfor %}" />
+          <p>
+            {% for section in page.col3text %}
+              {{ section | textilize }}
+            {% endfor %}
+          </p>
+        </div>
+
+        <div class="clear" id="hometext">
+          <div class="clear" id="contactbox">
+            <h2>Get in Touch. Get a Free Demo.</h2>
+
+            <div class="contactcolumn" id="ccol1">
+            <p>
+              We are so convinced that you'll be amazed by MultimediaSearch, that we'd love to give you a personalized demo, free. Whether you have documents, videos, or both, we will index texts and transcripts, and publish them to a secure website where you can test out the functionality. Just fill out the form to the right to get the conversation started.
+            </p>
+
+            <p>
+              <a href="mailto:info@microsearch.net">info@microsearch.net</a> | 1-800-895-0212
+            </p></div>
+            <div class="contactcolumn" id="ccol2">
+
+
+            <form class="contactform" action="https://formspree.io/jfitzgerald@microsearch.net"
+                  method="POST">
+                <input type="text" name="name" placeholder="Your name">
+                <input type="email" name="_replyto" placeholder="Your email">
+                <input id="sendbutton" type="submit" value="Send">
+                <input type="hidden" name="_cc" value="jfitzgerald@microsearch.net" />
+                <input type="hidden" name="_subject" value="New email from microsearch.net!" />
+                <input type="hidden" name="_next" value="/thankyou/" />
+                <input type="text" name="_gotcha" style="display:none" />
+            </form></div>
+            <div class="clear">
+
+            </div>
+          </div>
+        </div>
