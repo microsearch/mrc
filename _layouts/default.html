@@ -11,9 +11,7 @@
       <div class="wrapper">
 		  <div class="column" id="lcolumn">
         <h2>Navigation</h2>
-        {% for section in page.sections %}
-        <ul>{{ section | textilize }}</ul>
-        {% endfor %}
+        {% include navigation.html context=page.url %}
       </div>
           <div class="column" id="rcolumn">{{ content }}</div>
       </div>
