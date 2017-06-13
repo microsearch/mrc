@@ -1,74 +1,43 @@
 ---
 layout: default-home
 ---
-
 <div class="home">
-    <div id="homebanner">
-        <h1>
-      {% for section in page.bannertext %}
-        {{ section | textilize }}
-      {% endfor %}
-    </h1>
+  <div id="homebanner">
+    <h1>{{ page.bannertext }}</h1>
+  </div>
+  <div class="homecolumn" id="homecol1">
+    <h2>{{ page.homecol1head }}  </h2> <img src="/images/{{ page.homecol1img }}" />
+    <p> {{ page.homecol1text }} </p>
+  </div>
+  <div class="homecolumn" id="homecol2">
+    <h2>{{ page.homecol2head }}  </h2> <img src="/images/{{ page.homecol2img }}" />
+    <p> {{ page.homecol2text }} </p>
+  </div>
+  <div class="homecolumn" id="homecol3">
+    <h2>{{ page.homecol3head }}  </h2> <img src="/images/{{ page.homecol3img }}" />
+    <p> {{ page.homecol3text }} </p>
+  </div>
+  <div class="clear"> </div>
+  <h2 class="homeheader">Services</h2>
+  <div class="clear" id="hometext">
+    <div class="homecolumn" id="homecol4">
+      <a href="{{ page.homecol4link }}  ">
+        <h2>{{ page.homecol4head }}  </h2> <img src="/images/{{ page.homecol4img }}" />
+        <p> {{ page.homecol4text }} </p>
+      </a>
     </div>
-
-    <div class="homecolumn" id="homecol1">
-        <h2>{% for section in page.homecol1head %} {{ section | textilize }} {% endfor %}</h2>
-        <img src="/images/{% for section in page.homecol1img %}{{ section | textilize }}{% endfor %}" />
-        <p>
-            {% for section in page.homecol1text %} {{ section | textilize }} {% endfor %}
-        </p>
+    <div class="homecolumn" id="homecol5">
+      <a href="{{ page.homecol5link }}  ">
+        <h2>{{ page.homecol5head }}  </h2> <img src="/images/{{ page.homecol5img }}" />
+        <p> {{ page.homecol5text }} </p>
+      </a>
     </div>
-
-    <div class="homecolumn" id="homecol2">
-        <h2>{% for section in page.homecol2head %} {{ section | textilize }} {% endfor %}</h2>
-        <img src="/images/{% for section in page.homecol2img %}{{ section | textilize }}{% endfor %}" />
-        <p>
-            {% for section in page.homecol2text %} {{ section | textilize }} {% endfor %}
-        </p>
+    <div class="homecolumn" id="homecol6">
+      <a href="{{ page.homecol6link }}  ">
+        <h2>{{ page.homecol6head }}  </h2> <img src="/images/{{ page.homecol6img }}" />
+        <p> {{ page.homecol6text }} </p>
+      </a>
     </div>
-
-    <div class="homecolumn" id="homecol3">
-        <h2>{% for section in page.homecol3head %} {{ section | textilize }} {% endfor %}</h2>
-        <img src="/images/{% for section in page.homecol3img %}{{ section | textilize }}{% endfor %}" />
-        <p>
-            {% for section in page.homecol3text %} {{ section | textilize }} {% endfor %}
-        </p>
-    </div>
-
-
-
-    <div class="clear">
-    </div>
-
-            <h2 class="homeheader">Services</h2>
-
-    <div class="clear" id="hometext">
-      <div class="homecolumn" id="homecol4"><a href="{% for section in page.homecol4link %} {{ section | textilize }} {% endfor %}">
-          <h2>{% for section in page.homecol4head %} {{ section | textilize }} {% endfor %}</h2>
-          <img src="/images/{% for section in page.homecol4img %}{{ section | textilize }}{% endfor %}" />
-          <p>
-              {% for section in page.homecol4text %} {{ section | textilize }} {% endfor %}
-          </p></a>
-      </div>
-
-      <div class="homecolumn" id="homecol5"><a href="{% for section in page.homecol5link %} {{ section | textilize }} {% endfor %}">
-          <h2>{% for section in page.homecol5head %} {{ section | textilize }} {% endfor %}</h2>
-          <img src="/images/{% for section in page.homecol5img %}{{ section | textilize }}{% endfor %}" />
-          <p>
-              {% for section in page.homecol5text %} {{ section | textilize }} {% endfor %}
-          </p></a>
-      </div>
-
-      <div class="homecolumn" id="homecol6"><a href="{% for section in page.homecol6link %} {{ section | textilize }} {% endfor %}">
-          <h2>{% for section in page.homecol6head %} {{ section | textilize }} {% endfor %}</h2>
-          <img src="/images/{% for section in page.homecol6img %}{{ section | textilize }}{% endfor %}" />
-          <p>
-              {% for section in page.homecol6text %} {{ section | textilize }} {% endfor %}
-          </p></a>
-      </div>
-        <div class="clear">
-        </div>
-    </div>
-
-</div>
+    <div class="clear"> </div>
+  </div>
 </div>
