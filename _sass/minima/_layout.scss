@@ -373,6 +373,24 @@
   padding: 20px 0 10px 0;
 }
 
+#homeabout {
+  padding: 20px;
+  background: $brand-color-dark;
+  margin: 10px 0 20px 0;
+}
+
+#homeabout h2 {
+  border-bottom: solid 1px $grey-color-light;
+  color: #fff;
+  font-size: 32px;
+}
+
+#homeabout p {
+  font-size: 24px;
+  line-height: 32px;
+  color: #efefef;
+}
+
 .homecolumn {
   width: -webkit-calc(31% - #{$spacing-unit});
   float: left;
