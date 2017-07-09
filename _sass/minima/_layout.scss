@@ -498,7 +498,7 @@ h2.homeheader {
   background-size: cover;
 
 @include media-query($on-palm) {
-  width: -webkit-calc(100% - #{$spacing-unit});
+  width: -webkit-calc(100% - $spacing-unit);
   padding: 0 $spacing-unit;
 }
 
