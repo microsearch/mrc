@@ -395,6 +395,12 @@
   width: -webkit-calc(31% - #{$spacing-unit});
   float: left;
   padding: 0 $spacing-unit;
+
+  @include media-query($on-palm) {
+    width: 100%;
+    float: none;
+  }
+
 }
 
 .homecolumn h2 {
