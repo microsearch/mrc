@@ -12,9 +12,10 @@ pagebox1head: Video &amp; Document Conversion
 pagebox1subhead: From Paper Documents to Online Collection
 pagebox1img: vids.jpg
 pagebox1text: Even if your important documents are mostly printed on paper or your
-  videos are on VHS or DVD, we can make them fully searchable. For documents, our enhanced scanning and character recognition technology preserves the original look of the
-  document, while embedding a layer of hidden, fully-searchable text beneath. For
-  videos, we can make a digital version of your tapes, transcribe any spoken text,
+  videos are on VHS or DVD, we can make them fully searchable. For documents, our
+  enhanced scanning and character recognition technology preserves the original look
+  of the document, while embedding a layer of hidden, fully-searchable text beneath.
+  For videos, we can make a digital version of your tapes, transcribe any spoken text,
   and provide a fully searchable transcript. Have a mix of documents and videos? No
   problem! We can combine them into one online MultimediaSearch database. <a href="/services/video-document-conversion/">Learn
   more...</a>
