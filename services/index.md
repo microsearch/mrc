@@ -12,7 +12,7 @@ pagebox1head: Video &amp; Document Conversion
 pagebox1subhead: From Paper Documents to Online Collection
 pagebox1img: vids.jpg
 pagebox1text: Even if your important documents are mostly printed on paper or your
-  videos are on VHS (or betamax!), we can make them fully searchable. For documents, our enhanced
+  videos are on VHS, we can make them fully searchable. For documents, our enhanced
   scanning and character recognition technology preserves the original look of the
   document, while embedding a layer of hidden, fully-searchable text beneath. For
   videos, we can make a digital version of your tapes, transcribe any spoken text,
