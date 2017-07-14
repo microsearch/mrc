@@ -330,6 +330,12 @@
 
 #lcolumn {
 	width: -webkit-calc(20% - #{$spacing-unit});
+
+
+  @include media-query($on-palm) {
+    width: -webkit-calc(100% - #{$spacing-unit});
+    text-align: left;
+  }
 }
 
 #lcolumn ul {
@@ -350,6 +356,11 @@
 	width: -webkit-calc(80% - #{$spacing-unit} - 1px);
   padding: $spacing-unit;
   border-left: solid 1px #e8e8e8;
+
+  @include media-query($on-palm) {
+    width: -webkit-calc(100% - #{$spacing-unit});
+    border-left: none;
+  }
 }
 
 /* Homepage */
