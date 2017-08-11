@@ -363,6 +363,70 @@
   }
 }
 
+#rcolumn_landing {
+	width: -webkit-calc(20% - #{$spacing-unit});
+  padding: $spacing-unit;
+  text-align: left;
+  float: right;
+
+@include media-query($on-palm) {
+  width: -webkit-calc(100% - #{$spacing-unit} * 2);
+  text-align: left;
+  float: none;
+}
+
+}
+
+
+#rcolumn_landing ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+#rcolumn_landing ul li {
+  padding: 10px 0;
+}
+
+#rcolumn_landing h2 {
+  font-style: italic;
+  color: #888;
+}
+
+.highlight_box {
+  color: #fff;
+  font-size: 18px;
+  display: block;
+  padding: 10px;
+  background: $brand-color;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.highlight_box a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.highlight_box a:hover {
+  text-decoration: none;
+}
+
+#lcolumn_landing {
+	width: -webkit-calc(75% - #{$spacing-unit} - 1px);
+  padding: $spacing-unit;
+  border-right: solid 1px $grey-color-light;
+  float: left;
+
+  @include media-query($on-palm) {
+    width: -webkit-calc(100% - #{$spacing-unit} * 2);
+    border-right: none;
+    float: none;
+  }
+
+}
+
+
 /* Homepage */
 
 #homebanner {
@@ -461,11 +525,12 @@
   width: 350px;
 }
 
-.pagebox a {
+.pagebox p a {
   color: inherit;
+  text-decoration: underline;
 }
 
-.pagebox a:hover {
+.pagebox p a:hover {
   text-decoration: none;
 }
 
@@ -500,6 +565,11 @@ h2.homeheader {
 
 #educationbanner.landingbanner h1 {
   padding: 20px 0 0 0;
+}
+
+#clippingbanner {
+  background: url("../images/share.jpg") bottom no-repeat;
+  background-size: cover;
 }
 
 .landingbanner {
@@ -617,7 +687,7 @@ h2.homeheader {
 }
 
 #ccol1 {
-  width: 60%;
+  width: 45%;
 
   @include media-query($on-palm) {
     width: 100%;

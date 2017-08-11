@@ -2,23 +2,37 @@
 layout: page
 ---
 
-<div class="pagebox"><a href="{% for section in page.pagebox1link %}{{ section | textilize }}{% endfor %}">
-<h2>{% for section in page.pagebox1head %}{{ section | textilize }}{% endfor %}</h2>
-<h3>{% for section in page.pagebox1subhead %}{{ section | textilize }}{% endfor %}</h3>
-<img src="{{site.baseurl}}/images/{% for section in page.pagebox1img %}{{ section | textilize }}{% endfor %}" />
-<p>{% for section in page.pagebox1text %}{{ section | textilize }}{% endfor %}</p></a>
+<div class="pagebox"><a href="{{ page.pagebox1link }}">
+<h2>{{ page.pagebox1head }}</h2>
+<h3>{{ page.pagebox1subhead }}</h3>
+<img src="{{site.baseurl}}/images/{{ page.pagebox1img }}" /></a>
+<p>{{ page.pagebox1text }}</p>
 </div>
 
-<div class="pagebox"><a href="{% for section in page.pagebox2link %}{{ section | textilize }}{% endfor %}">
-<h2>{% for section in page.pagebox2head %}{{ section | textilize }}{% endfor %}</h2>
-<h3>{% for section in page.pagebox2subhead %}{{ section | textilize }}{% endfor %}</h3>
-<img src="{{site.baseurl}}/images/{% for section in page.pagebox2img %}{{ section | textilize }}{% endfor %}" />
-<p>{% for section in page.pagebox2text %}{{ section | textilize }}{% endfor %}</p></a>
+<div class="pagebox"><a href="{{ page.pagebox2link }}">
+<h2>{{ page.pagebox2head }}</h2>
+<h3>{{ page.pagebox2subhead }}</h3>
+<img src="{{site.baseurl}}/images/{{ page.pagebox2img }}" /></a>
+<p>{{ page.pagebox2text }}</p>
 </div>
 
-<div class="pagebox"><a href="{% for section in page.pagebox3link %}{{ section | textilize }}{% endfor %}">
-<h2>{% for section in page.pagebox3head %}{{ section | textilize }}{% endfor %}</h2>
-<h3>{% for section in page.pagebox3subhead %}{{ section | textilize }}{% endfor %}</h3>
-<img src="{{site.baseurl}}/images/{% for section in page.pagebox3img %}{{ section | textilize }}{% endfor %}" />
-<p>{% for section in page.pagebox3text %}{{ section | textilize }}{% endfor %}</p></a>
+<div class="pagebox"><a href="{{ page.pagebox3link }}">
+<h2>{{ page.pagebox3head }}</h2>
+<h3>{{ page.pagebox3subhead }}</h3>
+<img src="{{site.baseurl}}/images/{{ page.pagebox3img }}" /></a>
+<p>{{ page.pagebox3text }}</p>
+</div>
+
+<div class="pagebox"><a href="{{ page.pagebox4link }}">
+<h2>{{ page.pagebox4head }}</h2>
+<h3>{{ page.pagebox4subhead }}</h3>
+<img src="{{site.baseurl}}/images/{{ page.pagebox4img }}" /></a>
+<p>{{ page.pagebox4text }}</p>
+</div>
+
+<div class="pagebox"><a href="{{ page.pagebox5link }}">
+<h2>{{ page.pagebox5head }}</h2>
+<h3>{{ page.pagebox5subhead }}</h3>
+<img src="{{site.baseurl}}/images/{{ page.pagebox5img }}" /></a>
+<p>{{ page.pagebox5text }}</p>
 </div>

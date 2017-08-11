@@ -1,7 +1,6 @@
 ---
 title: Video Search Engine Optimization and Marketing
 permalink: "/services/seo/"
-position: 13
 id: seo
 layout: landingpage
 description: Multimedia Reference Corporation indexes the words in your video transcripts
@@ -30,9 +29,5 @@ col3text: Chances are, your videos contain spoken words that, if indexed, would 
   if they're on YouTube, the words in your video are not indexed, making them completely
   opaque to search engines. MultimediaSearch indexes the words in your videos transcripts,
   and embeds them in your site so that they can be found by search engines like Google.
-highlight1: YouTube videos are better when they're not on YouTube.
-highlight2: All your videos at home on your website.
-highlight3: Your video transcripts can enhance your site's SEO.
-highlight4: <a href="/contact/">Get in Touch</a>. Get a Free Demo.
 ---
 
